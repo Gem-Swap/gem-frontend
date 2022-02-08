@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react'
 import styled from 'styled-components'
-import { Heading, Card, CardBody, Button, useModal } from '@wakandaswap-libs/uikit'
+import { Heading, Card, CardBody, Button, useModal } from '@gemswap-libs/uikit'
 import { getCakeAddress } from 'utils/addressHelpers'
 import { getBalanceNumber } from 'utils/formatBalance'
 import useI18n from 'hooks/useI18n'
@@ -69,10 +69,10 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(550, 'Your Lottery Winnings')}
         </Heading>
-        <CardImage src="/images/egg/ticketround.png" alt="wakanda logo" width={64} height={64} />
+        <CardImage src="/images/egg/ticketround.png" alt="gem logo" width={64} height={64} />
         <Block>
           <CakeWinnings />
-          <Label>{TranslateString(552, 'WKD to Collect')}</Label>
+          <Label>{TranslateString(552, 'GEM to Collect')}</Label>
         </Block>
         <Block>
           <LotteryJackpot />

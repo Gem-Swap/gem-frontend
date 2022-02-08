@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { ChevronDownIcon, Text } from '@wakandaswap-libs/uikit'
+import { ChevronDownIcon, Text } from '@gemswap-libs/uikit'
 
 export interface DetailsButtonProps {
   onClick?: () => void

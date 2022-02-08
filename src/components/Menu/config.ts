@@ -1,4 +1,4 @@
-import { MenuEntry } from '@wakandaswap-libs/uikit'
+import { MenuEntry } from '@gemswap-libs/uikit'
 
 const config: MenuEntry[] = [
   {
@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.wakandaswap.finance/',
+        href: 'https://exchange.gemswap.org/',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.wakandaswap.finance/#/pool',
+        href: 'https://exchange.gemswap.org/#/pool',
       },
     ],
   },
@@ -30,15 +30,15 @@ const config: MenuEntry[] = [
   //   icon: 'PoolIcon',
   //   href: '/pools',
   // },
+  // {
+  //   label: 'Lottery',
+  //   icon: 'TicketIcon',
+  //   href: '/lottery',
+  // },
   {
-    label: 'Lottery',
-    icon: 'TicketIcon',
-    href: '/lottery',
-  },
-  {
-    label: 'IWO',
+    label: 'IDO',
     icon: 'PoolIcon',
-    href: '/iwo',
+    href: '#',
   },
   // {
   //   label: 'NFT',
@@ -50,20 +50,20 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
-        label: 'WakandaSwap',
-        href: 'https://wakandaswap.info/token/0x5344c20fd242545f31723689662ac12b9556fc3d',
+        label: 'PancakeSwap',
+        href: '#',
       },
       {
         label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/wakanda-inu/',
+        href: '#',
       },
       {
         label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/wakanda-inu/',
+        href: '#',
       },
       {
         label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x5344c20fd242545f31723689662ac12b9556fc3d',
+        href: '#',
       },
     ],
   },
@@ -73,15 +73,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/wakandaswap/',
+        href: 'https://github.com/Gem-Swap/',
       },
-      // {
-      //   label: 'Docs',
-      //   href: 'https://goosedefi.gitbook.io/wakanda-inu//',
-      // },
+      {
+        label: 'Docs',
+        href: 'https://calcdevs.gitbook.io/gemswap/',
+      },
       {
         label: 'Blog',
-        href: 'https://wakandainu.medium.com/',
+        href: '#',
       },
     ],
   },
@@ -94,7 +94,7 @@ const config: MenuEntry[] = [
   {
     label: 'Audit by CertiK',
     icon: 'ShieldIcon',
-    href: 'https://certik.org/projects/wakanda-inu/',
+    href: '#',
   },
 ]
 

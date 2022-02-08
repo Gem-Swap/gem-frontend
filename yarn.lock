@@ -1562,6 +1562,17 @@
     "@ethersproject/properties" "^5.0.3"
     "@ethersproject/strings" "^5.0.4"
 
+"@gemswap-libs/uikit@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@gemswap-libs/uikit/-/uikit-0.2.1.tgz#5080413e878fe28efa0b6734541fececf72c2abb"
+  integrity sha512-IOAlzDMmLo9D5XNSU4XZ0pBKmfTvNlzNDePjeleLFWwq/g/fqqrl+yBEcvI4/iwMAH+4+jH0Dhht7C3MvD4xtA==
+  dependencies:
+    "@types/lodash" "^4.14.162"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-transition-group "^4.4.1"
+    styled-system "^5.1.5"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -2635,17 +2646,6 @@
   dependencies:
     "@typescript-eslint/types" "4.12.0"
     eslint-visitor-keys "^2.0.0"
-
-"@wakandaswap-libs/uikit@^0.1.2":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@wakandaswap-libs/uikit/-/uikit-0.1.3.tgz#d6f5a9632f3266e0f749f9c03e39199063ff8f8f"
-  integrity sha512-K1qTZ0yi4KhrlO8xUQonoZsSROlB6LXTlgHfOmcE3eFDUHYiB68Jp6tM4tBvH2IfMFBQ/9fz3QS69NdXop9t7Q==
-  dependencies:
-    "@types/lodash" "^4.14.162"
-    "@types/styled-system" "^5.1.10"
-    lodash "^4.17.20"
-    react-transition-group "^4.4.1"
-    styled-system "^5.1.5"
 
 "@walletconnect/client@^1.3.3":
   version "1.3.3"
