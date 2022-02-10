@@ -16,7 +16,7 @@ contract TKNExchange{
     }
     
     function retrieveEtherBalance() external view returns(uint256){
-       // return address(this).balance;
+       return address(this).balance;
     }
     //transfering ether to another address
    function transferEther(address payable recipient) external payable{
