@@ -33,13 +33,6 @@ contract TKNExchange{
         
     }
     
-    //function swapERC20WithEther(){}
-    //sends ether and receives ERC20 _ERC20TokenAddress
-    //it assumes that this contract already has some ether in its wallet
-    //the approve function must first be called from the ERC20 token contract
-    //before the transferFrom function will work
-    //@_ERC20TokenAddress, the address of the ERC20 token
-    //@_recipient, the ether address of the recipient
     //@amount, the amount of ERC20 tokens to send and the recipient address gets the equivalent ether
     function swapERC20WithEther(address _ERC20TokenAddress, address payable _recipient, uint256 amount) external payable{
        //IERC20(_ERC20TokenAddress).approve(address(this), amount);
@@ -51,13 +44,7 @@ contract TKNExchange{
         _recipient.transfer(amount);
     } 
     
-    //function swapERC20WithERC20(){}
-    //the user sends an ERC20 and receives another ERC20 token in return
-    //the approve function must be called in the user's ERC20 token contract
-    //before the transferFrom function can work
-    //@_ERC20TokenAddress, the user's ERC20 token address
-    //@amount,the amount you want to transfer from the user balance
-    //to get the correcsponding ERC20 token in return
+   
    function swapERC20WithERC20(address _ERC20TokenAddress, address _ERC20ExchTokenAddress, uint256 amount) external{
        //IERC20(_ERC20TokenAddress).approve(address(this), amount);
        //retrieve the user's allowance
